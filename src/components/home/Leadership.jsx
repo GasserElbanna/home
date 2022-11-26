@@ -26,12 +26,6 @@ const Leadership = ({ heading, message, img, imageSize }) => {
                     width={imageSize.width}
                     height={imageSize.height}
                   />
-                  <Carousel.Caption>
-                    <h3>{value.label}</h3>
-                    <p>
-                      {value.paragraph}
-                    </p>
-                  </Carousel.Caption>
                 </Carousel.Item>
               );
             })}

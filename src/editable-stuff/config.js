@@ -6,30 +6,26 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Gasser",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Elbanna",
+  message: "It takes only one voice at the right pitch to start an avalanche.",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
+      url: "https://github.com/gasserelbanna",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      image: "fas fa-graduation-cap",
+      url: "https://scholar.google.com/citations?user=mvMHpo8AAAAJ&hl=en&oi=aohttps://scholar.google.com/citations?user=mvMHpo8AAAAJ&hl=en&oi=ao",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/gasser-elbanna-b38802127/",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.twitter.com/gasser_elbanna/",
     },
   ],
 };
@@ -51,41 +47,22 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
-  imageSize: 375,
-  message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
-};
-
-// PROJECTS SECTION
-// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
-//      i.e: reposLength: 0,
-// If you want to display specfic projects, add the repository names,
-//      i.e ["repository-1", "repo-2"]
-const repos = {
-  show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  imageLink: require("../editable-stuff/gasser.jpg"),
+  imageSize: 400,
+  message: "Hey There! Thank you for visitng my page. My name is Gasser Elbanna. I am a graduate research intern at MIT/HMS working with Satrajit Ghosh in the Senseable Intillegence Group at the McGovern Institute for Brain and Cognitive Sciences. I am a MSc. student at EPFL in Life Sciences Engineering with a specialization in Neuroscience and Neuro-engineering. I received the Bertarelli Fellowship to carry out my MSc. thesis at Harvard Medical School. My BSc. degree was in Systems and Biomedical Engineering at Cairo University.",
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // Leadership SECTION
 const leadership = {
-  show: false,
-  heading: "Leadership",
+  show: true,
+  heading: "Projects",
   message:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
   images: [
     { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
+      img: require("../editable-stuff/hybrid.png"), 
       label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
     },
   ],
@@ -95,9 +72,22 @@ const leadership = {
   }
 };
 
+// PROJECTS SECTION
+// Setting up project lenght will automatically fetch your that number of recently updated projects, or you can set this field 0 to show none.
+//      i.e: reposLength: 0,
+// If you want to display specfic projects, add the repository names,
+//      i.e ["repository-1", "repo-2"]
+const repos = {
+  show: false,
+  heading: "Recent Projects",
+  gitHubUsername: "gasserelbanna",
+  reposLength: 0,
+  specificRepos: ["serab-byols", "vocal-identity-jupyter-book"],
+};
+
 // SKILLS SECTION
 const skills = {
-  show: true,
+  show: false,
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
@@ -118,38 +108,70 @@ const skills = {
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
-  ],
+  ]
 };
 
 // GET IN TOUCH SECTION
 const getInTouch = {
-  show: true,
+  show: false,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "If you have any questions, or if you just want to say hi, please feel free to reach out at",
+  email: "gelbanna@mit.edu",
 };
 
+const education = {
+  show: true,
+  heading: "Education",
+  data: [
+    {
+      role: 'BSc. in Systems and Biomedical Engineering',// Here Add Company Name
+      companylogo: require('../assets/img/cairo.png'),
+      date: 'Sep 2015 – Aug 2020',
+    },
+    {
+      role: 'MSc. in Neuroscience and Neuro-engineering',
+      companylogo: require('../assets/img/epfl1.png'),
+      date: 'Sep 2020 – Present',
+    },
+  ]
+}
+
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      role: 'Graduate Research Intern',// Here Add Company Name
+      companylogo: require('../assets/img/McGovern.jpg'),
+      date: 'March 2022 – Present',
+      width: 400,
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      role: 'Voice AI Intern',// Here Add Company Name
+      companylogo: require('../assets/img/Logitech.png'),
+      date: 'August 2021 – February 2022',
+      width: 400,
+    },
+    {
+      role: 'Audio Signal Processing Intern',
+      companylogo: require('../assets/img/idiap.png'),
+      date: 'July 2021 – September 2021',
+      width: 400,
+    },
+    {
+      role: 'Research Assistant',
+      companylogo: require('../assets/img/iGH.png'),
+      date: 'March 2021 – October 2021',
+      width: 400,
+      height: 300,
     },
   ]
 }
 
 // Blog SECTION
-// const blog = {
-//   show: false,
-// };
+ const blog = {
+   show: true,
+ };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, education };
