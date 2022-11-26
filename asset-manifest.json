@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.778eeed7.css",
-    "main.js": "/home/static/js/main.dcac68e4.js",
-    "static/js/787.4b24f717.chunk.js": "/home/static/js/787.4b24f717.chunk.js",
-    "static/media/gasser_elbanna.png": "/home/static/media/gasser_elbanna.e1df5aa894eec856fb43.png",
-    "index.html": "/home/index.html",
-    "main.778eeed7.css.map": "/home/static/css/main.778eeed7.css.map",
-    "main.dcac68e4.js.map": "/home/static/js/main.dcac68e4.js.map",
-    "787.4b24f717.chunk.js.map": "/home/static/js/787.4b24f717.chunk.js.map"
+    "main.css": "/static/css/main.6e238e8a.css",
+    "main.js": "/static/js/main.9f5634ee.js",
+    "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
+    "static/media/gasser.jpg": "/static/media/gasser.ea1dd202ea0309d732b4.jpg",
+    "static/media/resume.pdf": "/static/media/resume.294c13d7bcf8c173282d.pdf",
+    "static/media/hybrid.png": "/static/media/hybrid.79c4c9e6a950704fa35d.png",
+    "static/media/Logitech.png": "/static/media/Logitech.beca785aefc7a8a3e9d7.png",
+    "static/media/iGH.png": "/static/media/iGH.0ebad7ac8ac7a14365da.png",
+    "static/media/cairo.png": "/static/media/cairo.215c1a2c28073a7cd8d6.png",
+    "static/media/McGovern.jpg": "/static/media/McGovern.7ab5b706fd280818b17b.jpg",
+    "static/media/idiap.png": "/static/media/idiap.176b1c350263d81d5bdb.png",
+    "index.html": "/index.html",
+    "main.6e238e8a.css.map": "/static/css/main.6e238e8a.css.map",
+    "main.9f5634ee.js.map": "/static/js/main.9f5634ee.js.map",
+    "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.778eeed7.css",
-    "static/js/main.dcac68e4.js"
+    "static/css/main.6e238e8a.css",
+    "static/js/main.9f5634ee.js"
   ]
 }
