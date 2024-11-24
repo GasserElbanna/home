@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.6e238e8a.css",
-    "main.js": "/static/js/main.2e223e0e.js",
+    "main.js": "/static/js/main.ff8989c5.js",
     "static/js/787.4b24f717.chunk.js": "/static/js/787.4b24f717.chunk.js",
     "static/media/gasser.jpg": "/static/media/gasser.ea1dd202ea0309d732b4.jpg",
     "static/media/Harvard-Logo.png": "/static/media/Harvard-Logo.dff9712a9af8ffb33a27.png",
-    "static/media/resume.pdf": "/static/media/resume.e31d63a892f8a674d09e.pdf",
+    "static/media/resume.pdf": "/static/media/resume.50bea8bc70b763c27dca.pdf",
     "static/media/hybrid.png": "/static/media/hybrid.79c4c9e6a950704fa35d.png",
     "static/media/Logitech.png": "/static/media/Logitech.beca785aefc7a8a3e9d7.png",
     "static/media/iGH.png": "/static/media/iGH.0ebad7ac8ac7a14365da.png",
@@ -14,11 +14,11 @@
     "static/media/idiap.png": "/static/media/idiap.176b1c350263d81d5bdb.png",
     "index.html": "/index.html",
     "main.6e238e8a.css.map": "/static/css/main.6e238e8a.css.map",
-    "main.2e223e0e.js.map": "/static/js/main.2e223e0e.js.map",
+    "main.ff8989c5.js.map": "/static/js/main.ff8989c5.js.map",
     "787.4b24f717.chunk.js.map": "/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6e238e8a.css",
-    "static/js/main.2e223e0e.js"
+    "static/js/main.ff8989c5.js"
   ]
 }
